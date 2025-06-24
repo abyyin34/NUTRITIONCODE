@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f9fafb;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3cb371;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 2rem;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .nutrition-list {
+      list-style: none;
+      padding: 0;
+    }
+    .nutrition-list li {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      background: #f1f7f4;
+      border-left: 4px solid #3cb371;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nutrition</h1>
+    <p>Your guide to healthy food choices</p>
+  </header>
+  <main>
+    <h2>Nutrition Tips</h2>
+    <ul class="nutrition-list">
+      <li>Eat a variety of foods to ensure you get all nutrients.</li>
+      <li>Include plenty of fruits and vegetables in your diet.</li>
+      <li>Choose whole grains over refined grains.</li>
+      <li>Stay hydrated by drinking enough water each day.</li>
+      <li>Limit sugar, salt, and saturated fat intake.</li>
+      <li>Practice portion control and mindful eating.</li>
+    </ul>
+  </main>
+</body>
+</html>
